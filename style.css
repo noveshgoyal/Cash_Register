@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&family=Source+Sans+Pro:wght@600&family=Varela+Round&display=swap');
+
+body{
+  background-color:#FFE1C8 ;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 40vw;
+  border-radius: 10px;
+  margin: 75px auto;
+  text-align: center;
+  background-color: #f5d4c1;
+  box-shadow: 0 0 10px black;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.box {
+  margin: 5px 0;
+}
+
+#check-button {
+  margin-top: 10px;
+}
+
+p,
+caption,
+td,
+label {
+  font-family: 'Quciksand', sans-serif;
+  font-size: medium;
+}
+
+caption{
+  margin-bottom: 7px;
+}
+th {
+  font-family: 'Source sans pro', sans-serif;
+
+}
+
+table{
+  margin-bottom: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+td,
+tr{
+  border: 2px solid black;
+  padding: 5px 5px;
+}
