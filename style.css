@@ -7,7 +7,8 @@ body{
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 40vw;
+  padding: 15px;
+  width: 50vw;
   border-radius: 10px;
   margin: 75px auto;
   text-align: center;
@@ -24,7 +25,14 @@ h1 {
 }
 
 #check-button {
+  padding: 3px;
+  font-size: 15px;
   margin-top: 10px;
+  width: 12%;
+}
+
+button:hover{
+  cursor: pointer;
 }
 
 p,
